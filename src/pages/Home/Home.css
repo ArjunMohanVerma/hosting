@@ -1,0 +1,39 @@
+.primary-heading:hover{
+    background-color: 'blue';
+    color: 'white';
+    cursor: 'pointer';
+    
+}
+.home-container{
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://wallpaperaccess.com/full/2666350.jpg");
+  z-index: 0;
+
+}
+.primary-heading{
+  background-color: rgba(128, 0, 128, 0.5);
+  color: white;
+  padding: 1rem;
+  font-size:2rem;
+  margin-top:0.5rem;
+  
+
+}
+.primary-text{
+  background-color: rgba(126, 113, 126,0.6);
+  color: white;
+  margin: auto;
+  position: relative;
+  border-radius: 1rem;
+  width:95vw;
+  z-index: 0;
+}
+.text{
+  padding:1rem;
+  font-size: 0.5rem;
+  font-size-adjust: 1;
+  z-index: 0;
+}
