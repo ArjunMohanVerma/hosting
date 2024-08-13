@@ -33,7 +33,7 @@ const slideImages = [
 
  const ImageSlider = () => {
     return (
-      <div className="slide-container" style={{zindex:"0"}}>
+      <div className="slide-container">
         <Slide>
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
