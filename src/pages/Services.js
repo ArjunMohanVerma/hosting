@@ -24,7 +24,7 @@ export default function Services() {
     <div className="App" style={{backgroundColor:"grey", overflow:"hidden",height:"100vh"}}>
       <h1 style={{fontSize:"3vw"}}>Our Services</h1>
       <div>
-      <Carousel style={{width:"50vw",height:"10vh",backgroundColor:"black"}} showDots={true} responsive={responsive}>
+      <Carousel style={{width:"50vw",height:"10vh",backgroundColor:"black"}} showDots={false} responsive={responsive}>
         {product}
       </Carousel>
       </div><br/>

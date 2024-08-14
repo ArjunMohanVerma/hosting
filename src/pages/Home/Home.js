@@ -1,7 +1,7 @@
 import React from "react";
 import './Home.css';
 import {ReactTyped} from "react-typed";
-import ImageSlider from "../ImageSlider";
+import ImageSlider from "./ImageSlider";
 
 
 
@@ -11,7 +11,7 @@ const Home = () => {
       return (<>
         <div className="home-container">
           <div>
-                <ImageSlider/>
+                <ImageSlider className="slider"/>
           </div>
           
         <div className="home-banner-container" >

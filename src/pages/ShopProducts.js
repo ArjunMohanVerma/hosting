@@ -1,10 +1,8 @@
-
-import Navbar from "./Navbar"
-export default function ShopProducts(){
-    return(
-        <>
-       
-        Products Form!
+export default function ShopProducts()
+    {
+        return(<>
+        <h1>Products Page!</h1>
         </>
-    )
-}
+
+        )
+    }

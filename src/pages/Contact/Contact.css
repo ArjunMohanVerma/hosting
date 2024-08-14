@@ -1,6 +1,6 @@
 .centainer{
-    background-color:rgba(128, 0, 128, 0.5) ;
-    overflow: "hidden";
+    background-color:rgb(158, 150, 158) ;
+    overflow: hidden;
    
 }
 .title{
@@ -35,6 +35,7 @@
 }
 .label{
     font-size:1.4rem;
+    color:white;
 }
 .input{
     box-shadow:1px 1px 1px black;
@@ -56,7 +57,7 @@
 }
 
 
-.outer{
+.out{
     display:flex;
     /* flex-direction:column;
     align-items: center;
@@ -89,11 +90,11 @@
     margin-bottom:2rem;
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
     .title{
         font-size: 1.6rem;
     }
-    .outer{
+    .out{
         flex-direction:column !important;
         align-items: center !important;
         justify-content: center !important;
@@ -104,7 +105,7 @@
     
   }
   @media screen and (max-width: 375px) {
-    .outer{
+    .out{
         flex-direction:column !important;
         align-items: center !important;
         justify-content: center !important;
@@ -121,10 +122,10 @@
         margin-left:1.6rem;
     }
       
-  }
+  } */
 
-  @media screen and (max-width: 425px) {
-    .outer{
+  @media screen and (min-width: 0px) and (max-width: 480px) {
+    .out{
         flex-direction:column !important;
         align-items: center !important;
         justify-content: center !important;
@@ -143,7 +144,7 @@
       
     }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 481px) and (max-width: 768px) {
     .text1{
         font-size: 1.13rem;
     }
@@ -191,7 +192,7 @@
 }
 }
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
         .div1{
             width:43rem !important;
             padding:1rem;

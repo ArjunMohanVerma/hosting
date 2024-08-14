@@ -13,6 +13,9 @@
   z-index: 0;
 
 }
+.slider{
+  z-index: 0;
+}
 .primary-heading{
   background-color: rgba(128, 0, 128, 0.5);
   color: white;

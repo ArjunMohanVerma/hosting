@@ -21,6 +21,7 @@ function Navbar() {
 				<a href="/ShopProducts">Products</a>
                 <a href="blogs">Blog</a>
                 <a href="/contact">Contact Us</a>
+				<a href="/login">Login/SignUp</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

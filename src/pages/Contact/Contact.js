@@ -12,17 +12,13 @@ export default function Contact(){
     user_mobile:"",
     user_email:"",
     message:"",
-
   })
 
   const handleChange=(e)=>{
     const {name,value}=e.target;
     setDetails((prev)=>{
       return{...prev, [name]: value};
-    });
-
-    
-   
+    }); 
   };
 
   const form = useRef();
@@ -51,7 +47,7 @@ export default function Contact(){
     <>
     <div className="centainer">
       <h2 className="title"><u>Contact Us</u></h2>
-      <div className="outer">
+      <div className="out">
         <div className="div1">
         <p className="text1"> 
         We are dedicated to transforming the salon industry by<br/> seamlessly connecting salon owners with customers through <br/>innovative and convenient solutions.

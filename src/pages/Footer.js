@@ -15,7 +15,7 @@ function Footer(){
     }
     return(
         <>
-        <div className='container'>
+        <div className='footer'>
 
             <div style={{display:"flex",paddingTop:"0.5rem"}}>
             

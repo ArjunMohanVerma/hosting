@@ -7,6 +7,9 @@ import Footer from "./pages/Footer"
 import ShopProducts from"./pages/ShopProducts"
 import { Route, Routes } from "react-router-dom"
 import Nav from "./pages/Nav"
+import Login from "./pages/Login"
+import Signup from "./pages/Signup"
+
 
 
 function App() {
@@ -23,6 +26,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/blogs" element={<Blogs />} /> 
           <Route path="/ShopProducts" element={<ShopProducts />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
         </Routes>
         <Footer/>
       </div>
