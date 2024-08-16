@@ -1,8 +1,8 @@
 import React from 'react';
 import './Footer.css';
-import facebook from"../Assets/facebook.png";
-import instagram from"../Assets/instagram.png";
-import youtube from"../Assets/youtube.png";
+import facebook from"./facebook.png";
+import instagram from"./instagram.png";
+import youtube from"./youtube.png";
 import {Link} from 'react-router-dom';
 
 

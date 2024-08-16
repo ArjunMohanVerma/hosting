@@ -1,0 +1,21 @@
+.product--image{
+    height:15rem;
+    width:15rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px 5px rgb(44, 44, 44);
+}
+.esk{
+    display:none;
+    height:28rem;
+}
+.ton{
+    box-shadow:1px 1px 1px black;
+    margin-left:3vw;
+    width:8rem;
+    height:3rem;
+    color:white; 
+    background-color:blueviolet;
+    font-size:1rem;
+    margin-top:1.9rem;
+    border-radius:1rem;
+}

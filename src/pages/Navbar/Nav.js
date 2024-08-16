@@ -18,7 +18,7 @@ function Navbar() {
 				<a href="/home">Home</a>
 				<a href="/about">About Us</a>
 				<a href="/services">Services</a>
-				<a href="/ShopProducts">Products</a>
+				{/* <a href="/ShopProducts">Products</a> */}
                 <a href="blogs">Blog</a>
                 <a href="/contact">Contact Us</a>
 				<a href="/login">Login/SignUp</a>

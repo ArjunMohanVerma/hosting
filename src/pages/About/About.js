@@ -6,12 +6,12 @@ export default function About() {
  return (
  <>
  <div className="about" >
-      <h1 style={{fontSize:"2.5rem"}}>About Us</h1>
-      <p style={{fontSize:"1.2rem"}}>Find Top-Rated{" "}
+      <h1 style={{fontSize:"2.5rem",textAlign:"center"}}>About Us</h1>
+      <p style={{fontSize:"1.2rem",textAlign:"center"}}>Find Top-Rated{" "}
       <ReactTyped strings={["Salons and Exclusive Deals with VYLEE"]} typeSpeed={50} loop backSpeed={30}/></p>
       <br/>
       <div>
-      <p style={{fontSize:"1rem",width:"100%"}}>At STKT Beauty and Technology, we’re passionate about revolutionizing the salon industry with our innovative platform, VYLEE. VYLEE connects salon owners with customers, making it easier for everyone to access and enjoy highly qualified salon services. VYLEE serves as a seamless bridge between exceptional salon services and customers seeking an empowering and luxurious beauty experience.
+      <p style={{fontSize:"1rem",width:"100%",textAlign:"center"}}>At STKT Beauty and Technology, we’re passionate about revolutionizing the salon industry with our innovative platform, VYLEE. VYLEE connects salon owners with customers, making it easier for everyone to access and enjoy highly qualified salon services. VYLEE serves as a seamless bridge between exceptional salon services and customers seeking an empowering and luxurious beauty experience.
       For clients, VYLEE offers an opportunity to showcase their exquisite services to a broader audience, attracting customers who appreciate and seek the highest standards of beauty care. Our platform provides a seamless interface for salons to manage appointments, promote special offers, and engage with a clientele that values luxury and refinement.
       For customers, VYLEE is the ultimate destination to explore a curated selection of luxury salons renowned for their vibrant, youthful, luminous, elegant, and exotic beauty services.</p><br/>
       </div>
@@ -42,9 +42,9 @@ export default function About() {
 
       {/*video section here */}
       <div>
-      <h3 style={{fontSize:"22px"}}>Browse through some of our videos</h3>
+      <h3 style={{fontSize:"22px",textAlign:"center"}}>Browse through some of our videos</h3>
       <br />
-      <div className="videos" style={{width:'97vw'}}>
+      <div className="videos">
       <video
           width="560"
           height="315"
@@ -69,14 +69,14 @@ export default function About() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen controls
         ></video>
-        <video
+        {/* <video
           width="560"
           height="315"
           src={video}
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen controls
-        ></video>
+        ></video> */}
         </div>
       </div>
     </div>

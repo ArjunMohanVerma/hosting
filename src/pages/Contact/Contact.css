@@ -1,6 +1,7 @@
 .centainer{
-    background-color:rgb(158, 150, 158) ;
+    background-color:rgb(192, 177, 192) ;
     overflow: hidden;
+    text-align: center;
    
 }
 .title{
@@ -39,10 +40,13 @@
 }
 .input{
     box-shadow:1px 1px 1px black;
+    padding:0.2rem;
 }
 .txtarea{
     box-shadow:1px 1px 1px black;
     resize:none;
+    padding:0.2rem;
+    
 }
 .btn{
     box-shadow:1px 1px 1px black;
@@ -75,7 +79,8 @@
 }
 
 .div2{
-    background-image: url("./contact1.jpg") ;
+    /* background-image: url("https://wallpapercave.com/wp/wp4863801.jpg") ; */
+    background-color: rgb(141, 143, 145);
     box-shadow: 8px 8px 8px 8px black;
     display:inline-block;
     overflow:hidden;
