@@ -2,11 +2,13 @@
     height:15rem;
     width:15rem;
     border-radius: 1rem;
-    box-shadow: 5px 5px 5px 5px rgb(44, 44, 44);
+    /* box-shadow: 5px 5px 5px 5px rgb(44, 44, 44); */
+    border: 3px solid grey;
 }
-.esk{
+.desk{
     display:none;
     height:28rem;
+    color:black;
 }
 .ton{
     box-shadow:1px 1px 1px black;
@@ -18,4 +20,7 @@
     font-size:1rem;
     margin-top:1.9rem;
     border-radius:1rem;
+}
+.hg{
+    color:#791dae;
 }

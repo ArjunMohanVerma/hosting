@@ -23,7 +23,7 @@ export default function Services() {
     <>
     
     <div className="App" >
-      <h1 style={{fontSize:"2.5rem"}}>Our Services</h1>
+      <h1 style={{fontSize:"2.5rem", color:"#791dae"}}>Our Services</h1>
       <div>
       <Carousel showDots={false} responsive={responsive}>
         {product}
@@ -32,10 +32,10 @@ export default function Services() {
       
       <div  className="AI">
       
-      <h1 style={{float:"center",marginTop:"2rem",color:"black", fontSize:"2rem"}}>Additional Information</h1>
+      <h1 style={{float:"center",marginTop:"2rem",color:"white", fontSize:"2rem"}}>Additional Information</h1>
       
         
-        <p style={{color:"black",fontSize:"1.3rem"}}>Effortless onboarding lets you showcase your salon's strengths quickly.
+        <p style={{color:"white",fontSize:"1.3rem"}}>Effortless onboarding lets you showcase your salon's strengths quickly.
             Dedicated support ensures you get the most out of VYLEE.
             VYLEE equips salons for success in the digital age, bringing new clients, streamlining operations, and enhancing client engagement.
         </p>

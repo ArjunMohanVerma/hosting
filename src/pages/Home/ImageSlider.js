@@ -10,7 +10,7 @@ const divStyle = {
   backgroundSize: '100% 100%',
   backgroundPosition: "center",
   backgroundRepeat: "no-repeat",
-  height:"20rem",
+  height:"25rem",
 }
 const slideImages = [
   {

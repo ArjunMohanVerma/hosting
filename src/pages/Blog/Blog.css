@@ -6,3 +6,11 @@
     /* margin:3rem; */
      background-color: rgb(249, 224, 224); 
 }
+
+@media screen and (min-width:320px) and (max-width:426px) {
+    .rw{
+        display:flex;
+        flex-direction:column;
+    }
+    
+}

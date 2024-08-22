@@ -15,7 +15,7 @@ export default function Product(props) {
         x.style.display = "none";
       }
     })
-
+    
   }
 
 
@@ -23,7 +23,7 @@ export default function Product(props) {
   return (
     <div className="ard">
       <img className="product--image" src={props.url} alt="product image" />
-      <h2>{props.name}</h2>
+      <h2 className="hg">{props.name}</h2>
       <p className="desk">{props.description}</p>
       <p>
         <button id="btn" onClick={handleClick} className="ton">Explore More!</button>

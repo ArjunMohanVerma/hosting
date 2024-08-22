@@ -43,3 +43,25 @@
   z-index: 0;
   text-align:center;
 }
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+  .text{
+    padding:2rem;
+    font-size: 1rem;
+    font-size-adjust: 1;
+    z-index: 0;
+    text-align:center;
+  }
+  .primary-heading{
+    background-color: rgba(128, 0, 128, 0.5);
+    padding: 1rem;
+    font-size:2.3rem;
+    margin-top:1rem;
+    text-align:center;
+    
+  
+  }
+  .primary-text{
+    margin-top:1rem;
+  }
+
+}
