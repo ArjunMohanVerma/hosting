@@ -8,11 +8,6 @@ import {Link} from 'react-router-dom';
 
 
 function Footer(){
-    const images={
-        height:"2rem",
-        width:"2.5rem",
-        paddingLeft:"1vw",
-    }
     return(
         <>
         <div className='footer'>
@@ -29,19 +24,18 @@ function Footer(){
             </p>
             </div>
             
-            {/* <div className='link' style={{display:"flex",width:"15%",gap:"0.2rem",padding:"1rem",marginRight:"1vw",mrginTop:"0.5vw"}}>
+            <div className='linkee'>
             
             <Link to="https://www.facebook.com/profile.php?id=61561414439963" target='"_blank'>
-            <img src={facebook} style={images}/> 
+            <img src={facebook}  className="imaaag"  alt="images"/> 
             </Link>
             <Link to="https://www.youtube.com/@STKTBeautyandTechnology" target='"_blank'>
-            <img src={youtube} style={images}/>
+            <img src={youtube}  className="imaaag" alt="images"/>
             </Link>
             <Link to="https://www.instagram.com/vylee.in/" target='"_blank'>
-            
-            <img src={instagram} style={images}/>
+            <img src={instagram}  className="imaaag" alt="images"/>
             </Link>
-            </div> */}
+            </div>
 
             
             </div>

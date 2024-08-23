@@ -129,7 +129,7 @@
       
   } */
 
-  @media screen and (min-width: 0px) and (max-width: 480px) {
+  @media screen and (min-width: 320px) and (max-width: 426px) {
     .out{
         flex-direction:column !important;
         align-items: center !important;
@@ -139,12 +139,22 @@
         font-size:0.9rem !important;
     }
     .div2{
-        width:22rem !important;
-        height: 38rem !important;
-        margin-left:1.5rem;
+        width:18rem !important;
+        height: 30rem !important;
+        margin-left:1.5rem !important;
+    }
+    .table{
+        margin-left:2rem;
     }
     .div1{
         width:25rem;
+    }
+    .label{
+        font-size:0.9rem;
+        color:white;
+    }
+    .t2{
+        font-size:1.2rem;
     }
       
     }
