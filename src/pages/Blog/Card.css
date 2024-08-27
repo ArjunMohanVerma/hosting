@@ -1,6 +1,6 @@
 .crd:hover {
     box-shadow: 10px 10px 20px 10px rgba(24, 24, 24, 0.273) !important;
-    transition: all 0.3s linear;
+    transition: all 0.3s linear !important;
    
   }
   .bak{
@@ -41,6 +41,6 @@
   }
   
   .crd-img-top:hover {
-    transform: scale(1.2);
-    padding:1rem;
+    transform: scale(1.2) !important;
+    padding:1rem !important;
   }

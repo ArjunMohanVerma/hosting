@@ -32,10 +32,10 @@ export default function Services() {
       
       <div  className="AI">
       
-      <h1 style={{float:"center",marginTop:"2rem",color:"white", fontSize:"2rem"}}>Additional Information</h1>
+      <h1 className="h12">Additional Information</h1>
       
         
-        <p style={{color:"white",fontSize:"1.3rem"}}>Effortless onboarding lets you showcase your salon's strengths quickly.
+        <p className="xt">Effortless onboarding lets you showcase your salon's strengths quickly.
             Dedicated support ensures you get the most out of VYLEE.
             VYLEE equips salons for success in the digital age, bringing new clients, streamlining operations, and enhancing client engagement.
         </p>
